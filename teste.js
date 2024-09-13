@@ -1,4 +1,4 @@
 const nome = prompt ("Qual seu nome?")
-const idade = prompt ("Qual sua idade?")
-console.log("Qual seu nome:",nome)
-console.log("Qual sua idade:",idade)
+const idade = Number (prompt ("Qual sua idade?"))
+console.log(typeof nome, typeof idade)
+//prompt sempre é string//
