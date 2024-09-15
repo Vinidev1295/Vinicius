@@ -13,8 +13,8 @@
  //subtração e multiplicação do resultado
  primeiroValor = 5
  segundoValor = 4
- resultado= primeiroValor - segundoValor 
- console.log(resultado * -1)
+ resultado= (primeiroValor - segundoValor) * -1
+ console.log(resultado)
 
  //resto da divisão
  const restoDaDivisao = 234 % 5
