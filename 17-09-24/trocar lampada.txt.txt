@@ -1,0 +1,10 @@
+1. Pego a lampada nova
+2. Pego a escada
+3. subo na escada
+4. tiro a lampada antiga/queimada
+5. boto a lampada nova
+6. desço da escada
+7. ligo o interruptor para testar
+8. descarto a lampada antiga/queimada
+9. guardo a escada
+10. descarto a lampada antiga
