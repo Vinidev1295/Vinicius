@@ -35,7 +35,7 @@ let maiorQue = primeiroNumero > segundoNumero // Saber se é maior.
 console.log("O primeiro número é maior que o segundo?", maiorQue)
 let igual = primeiroNumero === segundoNumero // Saber se é igual.
 console.log("O primeiro número é igual ao segundo?", igual)
-let divisivelPorSegundo = segundoNumero !== 0 && primeiroNumero % segundoNumero === 0
+let divisivelPorSegundo = (segundoNumero !== 0) && (primeiroNumero % segundoNumero === 0)
 console.log("O primeiro número é divisível pelo segundo?", divisivelPorSegundo)
-let divisivelPorPrimeiro = primeiroNumero !== 0 && segundoNumero % primeiroNumero === 0
+let divisivelPorPrimeiro = (primeiroNumero !== 0) && (segundoNumero % primeiroNumero === 0)
 console.log("O segundo número é divisível pelo primeiro?", divisivelPorPrimeiro)
