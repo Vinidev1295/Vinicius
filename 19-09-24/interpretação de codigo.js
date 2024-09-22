@@ -1,4 +1,5 @@
 //interpretação de codigo
+//Exercicio 1:
 let array
 console.log('a. ', array) // Vai imrprimir no console como indefinido, pois a variável não foi definida.
 
@@ -17,6 +18,7 @@ console.log('e. ', array) // Vai imprimir a array e subsititui o valor 4 por 19.
 const valor = array[i+6]
 console.log('f. ', valor) // Vai imprimir o Number 9
 
+//Exercicio 2
 let frase = prompt("Digite uma frase")
 console.log(frase.toUpperCase().replaceAll("A", "I"), frase.length)/* toUpperCase vai transformar toda a frase em maiuscula, replaceAll vai substituir todas as letras "A" por "I".
 frase.lenght vai dizer o tamanho da string.*/
