@@ -41,3 +41,23 @@ function imprimirArray(){
     console.log(arrayMestre)
 }
 imprimirArray()
+
+//EXERCICIO 5
+
+ imprimirNome = function(){
+ nome = prompt("Qual seu nome?")
+ console.log(`Olá ${nome}`)
+}
+imprimirNome()
+imprimirNome()
+imprimirNome()
+
+
+ImprimirSoma = ()=>{
+numeroUm= Number(prompt("Digite um número:"))
+numeroDois= Number(prompt("Digite um número:"))
+resultado = numeroUm + numeroDois
+console.log(resultado)
+return resultado
+}
+variavelsoma = ImprimirSoma()
