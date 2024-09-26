@@ -3,7 +3,7 @@ const pessoa = {
     idade:28,
     generoMusical: "Hip Hop"
 }
-function pessoas2(){
+function pessoas2(pessoa){
     let infopessoa = pessoa
     
 const pessoa2 = {
@@ -16,4 +16,4 @@ const pessoa2 = {
 }
     console.log("O nome da pessoa é", pessoa2.nome, "e suas comidas preferidas são" ,pessoa2.comidas[0], "e" ,pessoa2.comidas[1], ".", "Seu melhor amigo se chama", pessoa2.amigo.nome,  "e tem", pessoa2.amigo.idade, "anos.")
 }
-pessoas2()
+pessoas2(pessoa)
