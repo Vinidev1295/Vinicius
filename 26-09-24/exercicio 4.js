@@ -4,8 +4,6 @@ const pessoa = {
     generoMusical: "Hip Hop"
 }
 function pessoas2(pessoa){
-    let infopessoa = pessoa
-    
 const pessoa2 = {
     ...pessoa,
     comidas:["lasanha", "batata frita"],
