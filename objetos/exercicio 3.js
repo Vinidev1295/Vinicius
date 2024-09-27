@@ -15,4 +15,4 @@ Irá imprimir o resultado da propriedade backender do objeto pessoa.
 Irá imprimir como undefined.
 b) Explique o valor impresso no console. Você sabe por que isso aconteceu?
 Irá imprimir o resultado da propriedade backender do objeto pessoa.
-Irá imprimir como undefined pois nao foi definido nenhuma propriedade para altura.
+Irá imprimir como undefined pois nao foi definido nenhuma propriedade para altura.*/
