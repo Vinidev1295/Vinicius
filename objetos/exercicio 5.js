@@ -1,3 +1,4 @@
+// A)
 const objeto1= {
     nome: "Vinicius",
     idade: 28,
@@ -8,6 +9,7 @@ const objeto2= {
     idade: 47,
     profissao: "Biólogo"
 }
+// B)
 function objeto3(objeto1, objeto2){
 const resultado = [objeto1.nome, objeto1.nome.length, objeto1.idade, objeto1.profissao, objeto1.profissao.length]
 return resultado
