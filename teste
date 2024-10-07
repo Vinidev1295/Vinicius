@@ -24,9 +24,9 @@ function listarAbrigoss() {
     }
 
     console.log("Lista de Abrigos:");
-    for (let i = 0; i < abrigos.length; i++) {
-        console.log(`Abrigo ${i + 1}: ${abrigos[i].nome}, Endereço: ${abrigos[i].endereco}, Telefone: ${abrigos[i].telefone}, Capacidade: ${abrigos[i].capacidade}`);
-    }
+    abrigos.forEach((abrigo, index) => {
+        console.log(`Abrigo ${index + 1}: ${abrigo.nome}, Endereço: ${abrigo.endereco}, Telefone: ${abrigo.telefone}, Capacidade: ${abrigo.capacidade}`);
+    });
 }
 
 function procurarAbrigo() {
