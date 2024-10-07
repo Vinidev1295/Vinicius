@@ -43,9 +43,8 @@ function procurarAbrigo() {
 function menu() {
     let opcao;
     
-    do {
-        opcao = prompt("Escolha uma opção:\n1. Adicionar Abrigo\n2. Listar Abrigos\n3. Procurar Abrigo\n4. Sair\n");
-
+     while (opcao !== '4'){
+         opcao = prompt("Escolha uma opção:\n1. Adicionar Abrigo\n2. Listar Abrigos\n3. Procurar Abrigo\n4. Sair\n");
         switch (opcao) {
             case '1':
                 adicionarAbrigo();
@@ -64,14 +63,11 @@ function menu() {
                 break;
 
             default:
-                console.log("Opção inválida. Tente novamente.");
+                alert("Opção inválida. Tente novamente.");
         }
-    } while (opcao !== '4');
+    }
 }
 
 // Iniciar o menu
 menu();
-}
 
-// Iniciar o menu
-menu();
